@@ -1,0 +1,56 @@
+ .temp-color-pallet {
+     color: #4D96A9;
+     color: #855FB1;
+     color: #28283D;
+     color: #87879D;
+     color: #8FE3F9;
+     color: #D9B8FF;
+     color: #FAFAFA;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+ body,
+ h1,
+ h2,
+ p {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+
+     font-family: 'Red Hat Display',
+         sans-serif;
+ }
+
+ h1 {
+     color: #28283D;
+ }
+
+ .text {
+     color: #87879D;
+ }
+
+ button {
+     font-size: 1rem;
+     font-weight: 700;
+     color: #FAFAFA;
+     border: none;
+     padding: 1rem 2rem;
+     border-radius: 2rem;
+ }
+
+ button span {
+     color: hsla(0, 0%, 98%, 0.7);
+ }
+
+ .btn-green {
+     background-color: #4D96A9;
+ }
+
+ .btn-purple {
+     background-color: #855FB1;
+ }
