@@ -22,16 +22,40 @@
 
  body {
 
-     font-family: 'Red Hat Display',
-         sans-serif;
+     font-family: 'Red Hat Display', sans-serif;
+     text-align: center;
+ }
+
+ main {
+     padding: 2rem;
+
+ }
+
+ .header-pictures img {
+     width: 100%;
  }
 
  h1 {
      color: #28283D;
+     font-size: 2.5rem;
+     line-height: 2.75rem;
  }
 
  .text {
      color: #87879D;
+     font-size: 1rem;
+     line-height: 1.625rem;
+ }
+
+ .hgroup-heading {
+     font-size: 1rem;
+     color: #4D96A9;
+     letter-spacing: .25rem;
+ }
+
+ .hgroup-p {
+     font-size: 2rem;
+     line-height: 2.25rem;
  }
 
  button {
@@ -51,6 +75,104 @@
      background-color: #4D96A9;
  }
 
- .btn-purple {
+ .btn-purple-what,
+ .btn-purple-download {
      background-color: #855FB1;
+ }
+
+ .btn-purple-download {
+     margin-bottom: 4rem;
+ }
+
+ .image-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     gap: 2rem;
+
+
+ }
+
+ .image-grid img {
+
+     width: 100%;
+     border-radius: 1rem;
+ }
+
+ footer {
+     position: relative;
+     /* padding-left: 2rem; */
+     /* margin-left: 2rem; */
+ }
+
+ .number-container {
+     display: grid;
+     justify-content: center;
+     position: relative;
+ }
+
+
+ .numbers::before {
+     content: "";
+     width: 1px;
+     height: 5.25rem;
+     background-color: #fd2a00;
+     position: absolute;
+     /* inset: -8rem 0 auto 0; */
+     margin: auto;
+ }
+
+ .numbers {
+     display: grid;
+     /* position: relative; */
+
+     align-items: center;
+     width: 3.5rem;
+     height: 3.5rem;
+     border-radius: 50%;
+     border: 1px solid #87879D;
+     background-color: #FAFAFA;
+     color: #87879D;
+     font-weight: 700;
+ }
+
+ /* hr {
+     width: 5.25rem;
+     transform: rotate(90deg);
+     border: 1px solid #87879D;
+    
+ } */
+
+ .footer-picture {
+     display: grid;
+     position: absolute;
+     background-color: #4D96A9;
+     /* object-fit: fill; */
+     z-index: -1;
+ }
+
+ .footer-picture img {
+     /* position: absolute;
+     inset: 0 0 0 0; */
+     /* object-fit: fill; */
+     mix-blend-mode: multiply;
+     opacity: .2;
+     /* display: block; */
+     max-width: 100%;
+ }
+
+ .footer-heading {
+     font-size: 2rem;
+     font-weight: 700;
+     color: #FAFAFA;
+     line-height: 2.25rem;
+     padding-top: 4rem;
+
+ }
+
+ .footer-p {
+     font-size: 1.125rem;
+     color: #FAFAFA;
+     font-weight: 500;
+     margin: 2rem;
  }
