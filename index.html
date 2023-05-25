@@ -17,61 +17,61 @@
 <body>
     <div class="container">
         <header>
+
             <a href="#"><img src="./images/logo.svg" alt="meet logo"></a>
-            <picture class="header-pictures">
-                <source srcset="./images/desktop/image-hero-left.png" media="(min-width: 1000px)">
-                <source srcset="./images/desktop/image-hero-right.png" media="(min-width: 1000px)">
-                <source srcset="./images/tablet/image-hero.png" media="(min-width: 600px)">
-                <img src="./images/mobile/image-hero.png" alt="happy people">
-            </picture>
+            <div class="header-image-overflow header-pictures">
+                <!-- <div class="desktop">
+                    <img src="./images/desktop/image-hero-left.png" alt="">
+                    <img src="./images/desktop/image-hero-right.png" alt="">
+                </div> -->
+                <img class="mobile" src="./images/mobile/image-hero.png" alt="happy people">
+                <!-- <img src="" alt="happy people"> -->
+                <!-- </picture> -->
+            </div>
         </header>
         <main>
 
-            <nav>
+            <nav class="nav-images">
                 <h1>Group Chat <br>for Everyone</h1>
                 <p class="text">Meet makes it easy to connect with others face-to-face virtually and collaborate across
                     any device.
                 </p>
-                <button class="btn-green">Download <span>v1.3</span></button>
-                <button class="btn-purple-what">What is it?</button>
+                <a href="#" class="btn-green btn">Download <span class="v-grn">v1.3</span></a>
+                <a href="#" class="btn-purple-what btn btn-purple">What is it?</a>
             </nav>
             <article>
-                <div class="numbers">
-                    <p>01</p>
-                </div>
-                <div class="image-grid">
+                <div class="image-grid section-one">
                     <img src="./images/desktop/image-woman-in-videocall.jpg" alt="woman in video call">
                     <img src="./images/desktop/image-women-videochatting.jpg" alt="women video chatting">
                     <img src="./images/desktop/image-men-in-meeting.jpg" alt="men in meeting">
                     <img src="./images/desktop/image-man-texting.jpg" alt="man texting">
                 </div>
                 <div class="card-container">
-                    <hgroup>
-                        <h2 class="hgroup-heading">Built for modern use</h2>
-                        <p class="hgroup-p">Smarter meetings, all in one place</p>
-                    </hgroup>
-                    <p class="text">Send messages, share files, show your screen, and record your meetings — all in one
-                        workspace. Control who can join with invite-only team access, data encryption, and data export.
-                    </p>
+                    <div class="card-sub-container">
+                        <hgroup>
+                            <h2 class="hgroup-heading">Built for modern use</h2>
+                            <p class="hgroup-p">Smarter meetings, all in one place</p>
+                        </hgroup>
+                        <p class="text">Send messages, share files, show your screen, and record your meetings — all in
+                            one
+                            workspace. Control who can join with invite-only team access, data encryption, and data
+                            export.
+                        </p>
+                    </div>
                 </div>
             </article>
         </main>
-        <footer>
-            <picture class="footer-picture">
-                <source srcset="./images/desktop/image-footer.jpg" media="(min-width: 1000px)">
-                <source srcset="./images/tablet/image-footer.jpg" media="(min-width: 600px)">
-                <img src="./images/mobile/image-footer.jpg" alt="">
-            </picture>
-            <div class="number-container">
-                <!-- <hr> -->
-                <div class="numbers">
-                    <p>02</p>
+        <footer class="section-two">
+            <div class="bg-image">
+                <div class="grid-group">
+                    <h2 class="footer-heading">Experience more <br> together</h2>
+                    <p class="footer-p">Stay connected with reliable HD meetings and unlimited one-on-one and group
+                        video
+                        sessions.</p>
+                    <a href="#" class="btn-purple-download btn btn-purple">Download <span
+                            class="v-purple">v1.3</span></a>
                 </div>
             </div>
-            <h2 class="footer-heading">Experience more <br> together</h2>
-            <p class="footer-p">Stay connected with reliable HD meetings and unlimited one-on-one and group video
-                sessions.</p>
-            <button class="btn-purple-download">Download <span>v1.3</span></button>
         </footer>
     </div>
 </body>
