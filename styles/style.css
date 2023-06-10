@@ -25,7 +25,7 @@
  }
 
  .container {
-     max-width: 1440px;
+     max-width: 90rem;
      box-shadow: 0 0 25px rgb(151, 150, 150);
      overflow: hidden;
      background-color: #FAFAFA;
